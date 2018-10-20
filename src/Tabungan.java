@@ -1,9 +1,13 @@
 public class Tabungan {
     private int saldo;
 
-    public int tabungan(int saldo) {
+    public int getSaldo() {
+        return saldo;
+    }
 
-        return this.saldo = saldo;}
+    public Tabungan(int saldo) {
+        this.saldo = saldo;
+    }
 
     public int ambilUang(int jumlah) {
 
